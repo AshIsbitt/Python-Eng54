@@ -1,4 +1,4 @@
-# Engineering 54 Python Basics :taco:
+# Engineering 54 Python Basics :taco: :snake:
 
 This is a repo for the basics of python that we are covering.
 
