@@ -1,5 +1,5 @@
 #1
-# AS a User I want to be able to see the menu in a formated way,
+# AS a User I want to be able to see the menu in a formatted way,
 # so that I can order my meal.
 print("Welcome to the cafe Python")
 print("Please see our menu here:\n")
@@ -29,7 +29,7 @@ while len(order) < 3:
             print("Invalid option")
 
 #3
-# As a user, I want to have my order read back to me in formated way so I know
+# As a user, I want to have my order read back to me in formatted way so I know
 # what I ordered.
 
 print("Your order is {}".format(order))
