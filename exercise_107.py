@@ -1,9 +1,11 @@
 #1
 # AS a User I want to be able to see the menu in a formated way,
 # so that I can order my meal.
+print("Welcome to the cafe Python")
+print("Please see our menu here:\n")
 
-meal = ["Burger", "Pizza", "Chips", "Kebab", "Chicken Nuggets",
-        "Apple Pie", "Ice Cream", "Cake"]
+meal = ["Burger", "Pizza", "Chips", "Kebab", "Nuggets",
+        "Applepie", "Icecream", "Cake"]
 
 print(meal)
 
@@ -13,7 +15,7 @@ print(meal)
 order = []
 
 while len(order) < 3:
-    order_item = input("What would you like to order? Enter an index value or item name. Type /'cancel/' to exit: ")
+    order_item = input("\nMay I take your order please?\nEnter an index value or item name. Type /'cancel/' to exit: ")
 
     try:
         order_item = int(order_item)
@@ -31,3 +33,7 @@ while len(order) < 3:
 # what I ordered.
 
 print("Your order is {}".format(order))
+print("That will come to...")
+print("...")
+print("Error. No price calculated")
+print("Your order will be free")
