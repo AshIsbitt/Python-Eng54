@@ -17,8 +17,11 @@ nested_dict = {'boris': crazy_landlord_1,
 
 #print(nested_dict)
 
-for k in nested_dict:
-    print(k)
-    for nest_key in nested_dict[k]:
-        print(nest_key, nested_dict[k][nest_key])
+# for k in nested_dict:
+#     print(k)
+#     for nest_key in nested_dict[k]:
+#         print(nest_key, nested_dict[k][nest_key])
 
+nest_list = [['x', 'x', 'x'],['x', 'x', 'x']]
+
+print(nest_list)
