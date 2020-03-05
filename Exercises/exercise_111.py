@@ -31,13 +31,13 @@ while True:
     user_input = input("Enter some text: ")
 
     if user_input == "Sensei, I am at peace":
-        print("Sometimes, what heart know, head forget")
+        print("Sometimes, what heart know, head forget".title())
         break
     elif user_input[-1] == "?":
-        print("questions are wise, but for now. Wax on, and Wax off")
+        print("questions are wise, but for now. Wax on, and Wax off".title())
     elif not user_input[0:6] == "Sensei":
-        print("You are smart, but not wise - address me as Sensei please")
+        print("You are smart, but not wise - address me as Sensei please".title())
     elif 'block' in user_input:
-        print("Remember, best block, not to be there...")
+        print("Remember, best block, not to be there...".title())
     else:
-        print("do not lose focus. Wax on. Wax off")
+        print("do not lose focus. Wax on. Wax off".title())

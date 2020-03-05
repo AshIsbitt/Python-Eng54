@@ -1,4 +1,4 @@
-# Engineering 54 Python Basics :taco: :snake:
+# Engineering 54 Python Basics :snake:
 
 This is a repo for the basics of python that we are covering.
 
@@ -17,5 +17,6 @@ We will also learn:
 - Other good practices:
     - good naming conventions
     - DRY
+    - RTFM
     - Other
     
